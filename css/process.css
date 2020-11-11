@@ -3,3 +3,18 @@
     font-style: italic;
     margin-top: 1rem;
 }
+
+.year {
+    margin-top: -2%;
+}
+
+.proj-img {
+    width: 70%;
+    margin-bottom: 3%;
+}
+
+.subtitle {
+    color: #f09d1f;
+    font-style: italic;
+    margin-top: 3rem;
+}
