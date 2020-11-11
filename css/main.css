@@ -58,10 +58,11 @@ body {
     border-top-color: black;
 }
 
-a {
+.subnav a {
     font-family: 'Feijoa Medium';
-    padding: .7vh;
     cursor: none;
+    padding-right: 3vh;
+    color: pink;
 }
 
 .subnav a:hover,
