@@ -3,6 +3,9 @@
   Default styling for the style guide 
 */
 
+
+/* Fonts Import */
+
 @import url(//db.onlinewebfonts.com/c/364bcd77f75508783b2255c15608d3ae?family=Feijoa+Medium);
 @import url(//db.onlinewebfonts.com/c/09c4db82c87d589fe57bd5e29a4debe2?family=Feijoa+Medium+Italic);
 @import url(//db.onlinewebfonts.com/c/1079aba7293cee85a36e6280bb7f3162?family=Feijoa+Bold);
@@ -24,9 +27,11 @@
     src: url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.woff") format("woff"), url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.svg#Feijoa Bold") format("svg");
 }
 
+
+/* End of Fonts */
+
 body {
     background-color: rgb(0, 0, 0);
-    font-family: sans-serif;
     padding: 2rem;
     margin: 0;
     height: 100vh;
@@ -48,29 +53,8 @@ body {
     border-top-color: black;
 }
 
-h1 {
-    font-size: 2rem;
-    color: white;
-}
-
-h2 {
-    margin-top: 6rem;
-}
-
-h3 {
-    font-style: italic;
-    margin-top: 1rem;
-}
-
-h4 {
-    margin-bottom: 0.25rem;
-}
-
-p {
-    margin-top: 0;
-}
-
 a {
+    font-family: 'Feijoa Medium';
     padding: .7vh;
     cursor: none;
 }
@@ -123,6 +107,20 @@ code {
   */
 
 
+/* Start of In-text Link*/
+
+.intext {
+    color: white;
+}
+
+.intext:hover .intext:focus {
+    color: red;
+}
+
+
+/* End of In-text Link */
+
+
 /* Styling for the navigation button */
 
 .button-nav {
@@ -151,18 +149,48 @@ code {
   */
 
 
-/* Start of In-text Link*/
+/* Styling for headings */
 
-.intext {
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'temeraire', serif;
+    font-weight: 400;
+    font-size: large;
+}
+
+h1 {
+    font-size: 2rem;
     color: white;
 }
 
-.intext:hover .intext:focus {
-    color: red;
+h2 {
+    margin-top: 6rem;
+}
+
+h3 {
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+h4 {
+    margin-bottom: 0.25rem;
 }
 
 
-/* End of In-text Link*/
+/* END FOR STYLING OF HEADINGS */
+
+
+/* STYLING FOR PARAGRAPHS */
+
+p {
+    margin-top: 0;
+    font-family: 'Feijoa Medium';
+}
+
+
+/* END OF STYLING FOR PARAGRAPHS */
 
 
 /* 
