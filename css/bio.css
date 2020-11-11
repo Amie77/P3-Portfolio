@@ -14,7 +14,8 @@ p {
 }
 
 .bio-img {
-    width: 30%;
+    float: right;
+    width: 60%;
 }
 
 .fix {
@@ -29,4 +30,14 @@ p {
     font-weight: lighter;
     left: 15%;
     top: 10vh;
+}
+
+.bio-para {
+    margin-top: 1%;
+    padding-left: 10%;
+    width: 30%;
+}
+
+.intro-bio {
+    margin-top: 10%;
 }
