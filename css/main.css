@@ -260,6 +260,9 @@ input[type='radio']:checked:after {
 
 /* Image as a link style */
 
+
+/* https://stackoverflow.com/questions/15757036/creating-a-zoom-effect-on-an-image-on-hover-using-css */
+
 .thumbnail {
     width: 30%;
 }
