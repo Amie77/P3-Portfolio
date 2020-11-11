@@ -293,6 +293,11 @@ h2 {
 }
 
 h3 {
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+.subtitle {
     color: #f09d1f;
     font-style: italic;
     margin-top: 1rem;
