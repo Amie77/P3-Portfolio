@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Amy Guo</title>
+
+</head>
+
+<body class="black">
+
+
+
+    <header>
+        <nav class="topnav">
+            <div class="topnav-right">
+                <a href="home.html">Home</a>
+                <a href="style_index.html">Style</a>
+                <a href="bio.html">Bio</a>
+                <a href="projects.html">Projects</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <div class="mx-auto row">
+            <h1 class="fixed pageTitle">My Works</h1>
+
+
+            <div class="row">
+                <div class="col-12">
+                    <span class="fixed proj" id="one">01</span>
+                    <a href="process-analysis.html" class="fixed proj" id="pp">Precedent Presentation</a>
+                </div>
+
+                <div class="col-12">
+                    <span class="fixed proj" id="two">02</span>
+                    <a href="process-analysis2.html" class="fixed proj" id="kt">Participant Group Slide</a>
+                </div>
+
+            </div>
+
+            <div class="red cursor"></div>
+
+        </div>
+        <script>
+            const cursor = document.querySelector('.cursor');
+
+            document.addEventListener('mousemove', e => {
+                cursor.setAttribute("style", "top: " + (e.pageY) + "px; left: " + (e.pageX - 20) + "px;")
+            })
+        </script>
+</body>
