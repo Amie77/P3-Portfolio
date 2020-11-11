@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>P03 - Style Guide</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/process.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Fonts -->
+    <!-- Adobe Temeraire -->
+    <link rel="stylesheet" href="https://use.typekit.net/xei2jwr.css">
+    <!-- Feijoa -->
+    <link href="//db.onlinewebfonts.com/c/364bcd77f75508783b2255c15608d3ae?family=Feijoa+Medium" rel="stylesheet" type="text/css" />
+    <link href="//db.onlinewebfonts.com/c/09c4db82c87d589fe57bd5e29a4debe2?family=Feijoa+Medium+Italic" rel="stylesheet" type="text/css" />
+    <link href="//db.onlinewebfonts.com/c/1079aba7293cee85a36e6280bb7f3162?family=Feijoa+Bold" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body class="black-background">
+
+    <header>
+        <nav class="topnav">
+            <div class="topnav-right">
+                <a href="home.html">Home</a>
+                <a href="style_index.html">Style</a>
+                <a href="bio.html">Bio</a>
+                <a href="projects.html">Projects</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+
+        <div class="container">
+            <h1 class="pageTitle">Precedent Presentation</h1>
+
+
+
+            <!-- INTERACTIVE ELEMENTS SECTION // -->
+            <section class="pp-section" id="pp-overview">
+
+
+                <section>
+                    <h3 class="subtitle">Overview</h3>
+
+                </section>
+
+                <div class="red cursor"></div>
+
+        </div>
+
+        <script>
+            const cursor = document.querySelector('.cursor');
+
+            document.addEventListener('mousemove', e => {
+                cursor.setAttribute("style", "top: " + (e.pageY) + "px; left: " + (e.pageX - 20) + "px;")
+            })
+        </script>
+
+</body>
+
+<footer>
+
+</footer>
+
+</html>
