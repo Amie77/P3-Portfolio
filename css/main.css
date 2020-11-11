@@ -65,6 +65,10 @@ code {
     display: block;
 }
 
+.code-color {
+    color: blue;
+}
+
 .red {
     background-color: rgb(190, 52, 52);
     /* border: 1px solid rgb(129, 28, 28); */
