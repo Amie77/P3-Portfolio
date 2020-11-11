@@ -59,6 +59,9 @@ a {
     text-decoration: none;
 }
 
+
+/* Start of <code> styling*/
+
 code {
     background-color: #EEE;
     padding: 0.5rem;
@@ -68,6 +71,12 @@ code {
 .code-color {
     color: blue;
 }
+
+
+/* End of <code> styling*/
+
+
+/* Start of cursor */
 
 .red {
     background-color: rgb(190, 52, 52);
@@ -83,6 +92,9 @@ code {
     transition-timing-function: ease-out;
     animation: anim .5s infinite alternate;
 }
+
+
+/* End of cursor */
 
 
 /* 
@@ -122,6 +134,9 @@ code {
     COMBINED ELEMENTS -------------------
   */
 
+
+/* Start of Main navigation */
+
 .topnav {
     overflow: hidden;
 }
@@ -151,12 +166,4 @@ code {
 }
 
 
-/* Start of Bio Page */
-
-.vid-bg {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
+/* End of Main navigation */
