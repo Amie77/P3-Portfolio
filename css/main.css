@@ -49,6 +49,11 @@ p {
     margin-top: 0;
 }
 
+a {
+    padding: .7vh;
+    cursor: none;
+}
+
 .subnav a:hover,
 .subnav a:focus {
     text-decoration: none;
@@ -110,7 +115,6 @@ code {
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
 }
 
 .topnav a {
@@ -128,7 +132,6 @@ code {
 }
 
 .topnav a.active {
-    background-color: #4CAF50;
     color: white;
 }
 

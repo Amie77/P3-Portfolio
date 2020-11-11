@@ -12,6 +12,7 @@
 </head>
 
 <body class="black-background">
+
     <header>
         <nav class="topnav">
             <div class="topnav-right">
@@ -21,220 +22,222 @@
                 <a href="#">Contact</a>
             </div>
         </nav>
-        <h1>P03 - Style Guide</h1>
+
+        <div class="container">
+            <h1>P03 - Style Guide</h1>
 
 
 
-        <nav class="subnav">
-            <a href="#interactive_elements">Interactive Elements</a>
-            <a href="#text_elements">Text Elements</a>
-            <a href="#combined_elements">Combined Elements</a>
-            <a href="#citations">Citations</a>
-        </nav>
+            <nav class="subnav">
+                <a href="#interactive_elements">Interactive Elements</a>
+                <a href="#text_elements">Text Elements</a>
+                <a href="#combined_elements">Combined Elements</a>
+                <a href="#citations">Citations</a>
+            </nav>
 
 
 
-        <!-- INTERACTIVE ELEMENTS SECTION // -->
-        <section id="interactive_elements">
-            <h2>Interactive Elements</h2>
+            <!-- INTERACTIVE ELEMENTS SECTION // -->
+            <section id="interactive_elements">
+                <h2>Interactive Elements</h2>
 
 
-            <section class="element">
-                <h3>In-text link</h3>
-                <div>
-                    <h4>CSS selector:</h4>
-                    <p>.intext</p>
-                </div>
-                <div>
-                    <h4>Sample code:</h4>
-                    <code>&lt;a href="mailto:guoamyg@sfu.ca"&gt;In-text link&lt;/a&gt;</code>
-                </div>
-                <div>
-                    <h4>Rendered element:</h4>
-                    <a class="intext" href="mailto:guoamyg@sfu.ca">In-text link</a>
-                </div>
-            </section>
+                <section class="element">
+                    <h3>In-text link</h3>
+                    <div>
+                        <h4>CSS selector:</h4>
+                        <p>.intext</p>
+                    </div>
+                    <div>
+                        <h4>Sample code:</h4>
+                        <code>&lt;a href="mailto:guoamyg@sfu.ca"&gt;In-text link&lt;/a&gt;</code>
+                    </div>
+                    <div>
+                        <h4>Rendered element:</h4>
+                        <a class="intext" href="mailto:guoamyg@sfu.ca">In-text link</a>
+                    </div>
+                </section>
 
 
-            <!-- Default Button styling section -->
-            <section class="element">
+                <!-- Default Button styling section -->
+                <section class="element">
 
-                <h3>Navigation Link</h3>
-                <div>
-                    <h4>CSS selector:</h4>
-                    <p>.button-nav</p>
-                </div>
-                <div>
-                    <h4>Sample code:</h4>
-                    <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
-                </div>
-                <div>
-                    <h4>Rendered element:</h4>
-                    <a class="button-nav" href="#">Default Button</a>
-                </div>
+                    <h3>Navigation Link</h3>
+                    <div>
+                        <h4>CSS selector:</h4>
+                        <p>.button-nav</p>
+                    </div>
+                    <div>
+                        <h4>Sample code:</h4>
+                        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+                    </div>
+                    <div>
+                        <h4>Rendered element:</h4>
+                        <a class="button-nav" href="#">Default Button</a>
+                    </div>
 
-            </section>
+                </section>
 
 
-            <section class="element">
-                <h3>Submit/Reset Buttons</h3>
+                <section class="element">
+                    <h3>Submit/Reset Buttons</h3>
 
-                <div>
-                    <h4>CSS selector:</h4>
-                    <p>.contact-btns</p>
-                </div>
+                    <div>
+                        <h4>CSS selector:</h4>
+                        <p>.contact-btns</p>
+                    </div>
 
-                <div>
-                    <h4>Sample code:</h4>
-                    <code>
+                    <div>
+                        <h4>Sample code:</h4>
+                        <code>
                       &lt;div class="contact-btns"&gt;<br>
                       &nbsp;&lt;input type="submit" value="Submit"&gt;</button><br>
                       &nbsp;&lt;input type="reset" value="Reset"&gt;</button><br>
                       &lt;/div&gt;
                 </code>
-                </div>
-
-                <div>
-                    <h4>Rendered element:</h4>
-                    <div class=" contact-buttons ">
-                        <button type=" submit " value=" Submit ">Submit</button>
-                        <button type=" reset " value=" Reset ">Reset</button>
                     </div>
-                </div>
 
-            </section>
+                    <div>
+                        <h4>Rendered element:</h4>
+                        <div class=" contact-buttons ">
+                            <button type=" submit " value=" Submit ">Submit</button>
+                            <button type=" reset " value=" Reset ">Reset</button>
+                        </div>
+                    </div>
+
+                </section>
 
 
-            <section class="element">
-                <h3>Text Input Field with Label</h3>
+                <section class="element">
+                    <h3>Text Input Field with Label</h3>
 
-                <!-- <div>
+                    <!-- <div>
                     <h4>CSS selector:</h4>
                     <p>.contact-btns</p>
                 </div> -->
 
-                <div>
-                    <h4>Sample code:</h4>
-                    <code>
+                    <div>
+                        <h4>Sample code:</h4>
+                        <code>
                       &lt;form&gt;<br>
                       &nbsp;&lt;label for="name"&gt;Name:&lt;/label&gt;<br>
                       &nbsp;&lt;input type="text" id="name" name="name"&gt;<br>
                           &lt;/form&gt;
               </code>
-                </div>
+                    </div>
 
-                <div>
-                    <h4>Rendered element:</h4>
-                    <form>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name"><br><br>
-                        <label for="email">Email:</label>
-                        <input type="text" id="email" name="email">
-                    </form>
-                </div>
-            </section>
+                    <div>
+                        <h4>Rendered element:</h4>
+                        <form>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name"><br><br>
+                            <label for="email">Email:</label>
+                            <input type="text" id="email" name="email">
+                        </form>
+                    </div>
+                </section>
 
 
-            <section class="element">
-                <h3>Radio Button with Label</h3>
-                <!-- <div>
+                <section class="element">
+                    <h3>Radio Button with Label</h3>
+                    <!-- <div>
                     <h4>CSS selector:</h4>
                     <p>.button-nav</p>
                 </div> -->
-                <div>
-                    <h4>Sample code:</h4>
-                    <code>
+                    <div>
+                        <h4>Sample code:</h4>
+                        <code>
                       &lt;form&gt;<br>
                       &nbsp;&lt;input type="radio" id="cc" name="type" value="cc"&gt;<br>
                       &nbsp;&lt;label for="cc"&gt;Credit Card</label><br>
                           &lt;/form&gt;
                   </code>
-                </div>
-                <div>
-                    <h4>Rendered element:</h4>
-                    <form>
-                        <input type="radio" id="cc" name="type" value="cc">
-                        <label for="cc">Credit Card</label><br><br>
-                        <input type="radio" id="paypal" name="type" value="paypal">
-                        <label for="paypal">Paypal</label><br><br>
-                    </form>
-                </div>
-            </section>
+                    </div>
+                    <div>
+                        <h4>Rendered element:</h4>
+                        <form>
+                            <input type="radio" id="cc" name="type" value="cc">
+                            <label for="cc">Credit Card</label><br><br>
+                            <input type="radio" id="paypal" name="type" value="paypal">
+                            <label for="paypal">Paypal</label><br><br>
+                        </form>
+                    </div>
+                </section>
 
 
-            <section class="element">
-                <h3>Image as a Link</h3>
+                <section class="element">
+                    <h3>Image as a Link</h3>
 
-                <!-- <div>
+                    <!-- <div>
                     <h4>CSS selector:</h4>
                     <p>.button-nav</p>
                 </div> -->
-                <div>
-                    <h4>Sample code:</h4>
-                    <code>
+                    <div>
+                        <h4>Sample code:</h4>
+                        <code>
                         &lt;a href="#"&gt;<br>
                         &nbsp;&lt;img class="album-pic" src="source/Untitled-2.jpg" alt="Album One"&gt;<br>
                         &lt;/a&gt;
                   </code>
-                </div>
-                <div>
-                    <h4>Rendered element:</h4>
-                    <a href="#">
-                        <img id="imgLink" class="album-pic" src="img/Untitled-2.jpg" alt="Placeholder">
-                    </a>
-                </div>
+                    </div>
+                    <div>
+                        <h4>Rendered element:</h4>
+                        <a href="#">
+                            <img id="imgLink" class="album-pic" src="img/Untitled-2.jpg" alt="Placeholder">
+                        </a>
+                    </div>
+                </section>
+
+
             </section>
-
-
-        </section>
-        <!-- // INTERACTIVE ELEMENTS SECTION -->
+            <!-- // INTERACTIVE ELEMENTS SECTION -->
 
 
 
-        <!-- TEXT ELEMENTS SECTION // -->
-        <section id="text_elements">
-            <h2>Text Elements</h2>
+            <!-- TEXT ELEMENTS SECTION // -->
+            <section id="text_elements">
+                <h2>Text Elements</h2>
 
-            <section class="element">
-                <h3>Headings</h3>
-                <!-- <div>
+                <section class="element">
+                    <h3>Headings</h3>
+                    <!-- <div>
                     <h4>CSS selector:</h4>
                     <p>.button-nav</p>
                 </div> -->
-                <div>
-                    <h4>Sample code:</h4>
-                    <code>
+                    <div>
+                        <h4>Sample code:</h4>
+                        <code>
                         &lt;h1&gt;h1&lt;/h1&gt;
                     </code>
-                    <code>
+                        <code>
                     &lt;h2&gt;h2&lt;/h2&gt;
                 </code>
-                    <code>
+                        <code>
                     &lt;h3&gt;h3&lt;/h3&gt;
                 </code>
-                    <code>
+                        <code>
                     &lt;h4&gt;h4&lt;/h4&gt;
                 </code>
-                </div>
+                    </div>
 
-                <div>
-                    <h4>Rendered element:</h4>
-                    <h1>h1</h1>
-                    <h2>h2</h2>
-                    <h3>h3</h3>
-                    <h4>h4</h4>
-                </div>
-            </section>
+                    <div>
+                        <h4>Rendered element:</h4>
+                        <h1>h1</h1>
+                        <h2>h2</h2>
+                        <h3>h3</h3>
+                        <h4>h4</h4>
+                    </div>
+                </section>
 
-            <section class="element">
-                <h3>Paragraphs</h3>
-                <!-- <div>
+                <section class="element">
+                    <h3>Paragraphs</h3>
+                    <!-- <div>
                     <h4>CSS selector:</h4>
                     <p>.button-nav</p>
                 </div> -->
-                <div>
-                    <h4>Sample code:</h4>
-                    <code>
+                    <div>
+                        <h4>Sample code:</h4>
+                        <code>
                         &lt;p&gt;
                         &nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget mi sit amet lectus sodales eleifend. Mauris ultricies enim lacinia sapien pharetra, sed luctus metus pulvinar. Fusce consectetur eros rhoncus libero auctor, a
                         suscipit enim elementum. Mauris id nisl viverra, posuere augue eu, porttitor tellus. Pellentesque aliquet tortor sed libero tincidunt interdum. Maecenas rutrum, metus vitae tincidunt maximus, tellus sapien tempor leo, sed dignissim
@@ -243,39 +246,39 @@
                         &lt;/p&gt;
                     </code>
 
-                </div>
+                    </div>
 
-                <div>
-                    <h4>Rendered element:</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget mi sit amet lectus sodales eleifend. Mauris ultricies enim lacinia sapien pharetra, sed luctus metus pulvinar. Fusce consectetur eros rhoncus libero auctor, a
-                        suscipit enim elementum. Mauris id nisl viverra, posuere augue eu, porttitor tellus. Pellentesque aliquet tortor sed libero tincidunt interdum. Maecenas rutrum, metus vitae tincidunt maximus, tellus sapien tempor leo, sed dignissim
-                        dolor tortor varius tellus. Suspendisse auctor metus et euismod consequat. Phasellus quis lobortis enim. Nam eget volutpat sapien. Pellentesque nunc metus, ornare vel ultricies at, hendrerit quis risus. Proin felis odio, auctor
-                        sed laoreet sit amet, iaculis eu nisl. Suspendisse lorem erat, auctor vitae eros at, sodales finibus dolor. Pellentesque quis hendrerit tellus, quis aliquam urna. Donec eu accumsan leo. Donec vitae aliquet sapien.
-                    </p>
-                </div>
+                    <div>
+                        <h4>Rendered element:</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget mi sit amet lectus sodales eleifend. Mauris ultricies enim lacinia sapien pharetra, sed luctus metus pulvinar. Fusce consectetur eros rhoncus libero auctor,
+                            a suscipit enim elementum. Mauris id nisl viverra, posuere augue eu, porttitor tellus. Pellentesque aliquet tortor sed libero tincidunt interdum. Maecenas rutrum, metus vitae tincidunt maximus, tellus sapien tempor leo, sed
+                            dignissim dolor tortor varius tellus. Suspendisse auctor metus et euismod consequat. Phasellus quis lobortis enim. Nam eget volutpat sapien. Pellentesque nunc metus, ornare vel ultricies at, hendrerit quis risus. Proin felis
+                            odio, auctor sed laoreet sit amet, iaculis eu nisl. Suspendisse lorem erat, auctor vitae eros at, sodales finibus dolor. Pellentesque quis hendrerit tellus, quis aliquam urna. Donec eu accumsan leo. Donec vitae aliquet sapien.
+                        </p>
+                    </div>
+
+                </section>
 
             </section>
-
-        </section>
-        <!-- // TEXT ELEMENTS SECTION -->
+            <!-- // TEXT ELEMENTS SECTION -->
 
 
 
-        <!-- COMBINED ELEMENTS SECTION // -->
-        <section id="combined_elements">
-            <h2>Combined Elements</h2>
+            <!-- COMBINED ELEMENTS SECTION // -->
+            <section id="combined_elements">
+                <h2>Combined Elements</h2>
 
-            <section class="element">
-                <h3>Main Navigation</h3>
+                <section class="element">
+                    <h3>Main Navigation</h3>
 
-                <div>
-                    <h4>CSS selector:</h4>
-                    <p>.topnav</p>
-                </div>
+                    <div>
+                        <h4>CSS selector:</h4>
+                        <p>.topnav</p>
+                    </div>
 
-                <div>
-                    <h4>Sample code:</h4>
-                    <code>
+                    <div>
+                        <h4>Sample code:</h4>
+                        <code>
                         &lt;nav class="topnav"&gt;<br>
                         &nbsp;&lt;div class="topnav-right"&gt;<br>
                         &nbsp;&nbsp;&lt;a href="#"&gt;Home&lt;/a&gt;<br>
@@ -286,37 +289,39 @@
                             &lt;/nav&gt;
                     </code>
 
-                </div>
+                    </div>
 
-                <div>
-                    <h4>Rendered element:</h4>
-                    <nav class="topnav">
-                        <div class="topnav-right">
-                            <a href="#">Home</a>
-                            <a href="#">Bio</a>
-                            <a href="#">Projects</a>
-                            <a href="#">Contact</a>
-                        </div>
-                    </nav>
-                </div>
+                    <div>
+                        <h4>Rendered element:</h4>
+                        <nav class="topnav">
+                            <div class="topnav-right">
+                                <a href="#">Home</a>
+                                <a href="#">Bio</a>
+                                <a href="#">Projects</a>
+                                <a href="#">Contact</a>
+                            </div>
+                        </nav>
+                    </div>
+                </section>
+
+            </section>
+            <!-- // COMBINED ELEMENTS SECTION -->
+
+
+
+            <section id="citations">
+                <h2>Citations</h2>
+
+                <ul>
+                    <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+                    <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
+                </ul>
+
             </section>
 
-        </section>
-        <!-- // COMBINED ELEMENTS SECTION -->
+            <div class="red cursor"></div>
 
-
-
-        <section id="citations">
-            <h2>Citations</h2>
-
-            <ul>
-                <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
-                <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
-            </ul>
-
-        </section>
-
-        <div class="red cursor"></div>
+        </div>
 
         <script>
             const cursor = document.querySelector('.cursor');
