@@ -130,6 +130,20 @@ code {
   */
 
 
+/* Start of In-text Link*/
+
+.intext {
+    color: white;
+}
+
+.intext:hover .intext:focus {
+    color: red;
+}
+
+
+/* End of In-text Link*/
+
+
 /* 
     COMBINED ELEMENTS -------------------
   */
