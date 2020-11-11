@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bio.css">
+
+    <title>Bio - Amy Guo</title>
+
+</head>
+
+<body class="black">
+
+    <header class="fix">
+        <!-- <video src="img/wave_1.mp4" class="vid-bg" autoplay loop muted></video> -->
+
+        <nav class="topnav">
+            <div class="topnav-right">
+                <a href="home.html">Home</a>
+                <a href="style_index.html">Style</a>
+                <a href="bio.html">Bio</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="row">
+        <h1 class="fixed pageTitle">About Me</h1>
+
+        <div>
+            <img class="bio-img" src="img/unnamed.jpg" alt=" Untitled " id="bioImg ">
+        </div>
+
+        <div class="col-8 ">
+
+            <p class="white fixed " id="intro ">My name is Amy Guo, and I’m currently a third-year undergraduate student studying interactive arts & technology at SFU. I enjoy anything that allows me to think creatively with my imaginations, such as sketching, painting and fashion. I am
+                also an enthusiastic magazine collector, especially those of design and arts. <br> <br>As a graphic designer, I value style the most as it can establish a unique aura and mood for a design. I always try to capture the emotion and impression
+                I want my audiences to perceive when I design a project. From two years of study, I have acquired a solid knowledge of graphic design, HTML, CSS, JAVA and Adobe Creative Suite.</p>
+        </div>
+    </div>
+
+    <div class="red cursor "></div>
+
+
+    <script>
+        const cursor = document.querySelector('.cursor');
+
+        document.addEventListener('mousemove', e => {
+            cursor.setAttribute("style ", "top: " + (e.pageY) + "px; left: " + (e.pageX - 20) + "px; ")
+        })
+    </script>
+</body>

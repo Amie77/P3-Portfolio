@@ -107,6 +107,11 @@ code {
     background-color: rgb(200, 200, 200);
 }
 
+.fix {
+    clear: both;
+    overflow: hidden;
+}
+
 
 /* 
     TEXT ELEMENTS -------------------
@@ -128,6 +133,8 @@ code {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    top: 5%;
+    font-family: 'Feijoa', serif;
 }
 
 .topnav a:hover {
@@ -141,4 +148,15 @@ code {
 
 .topnav-right {
     float: right;
+}
+
+
+/* Start of Bio Page */
+
+.vid-bg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }

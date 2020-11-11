@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    height: 100vh;
+    cursor: none;
+}
+
+a {
+    padding: .7vh;
+    cursor: none;
+}
+
+p {
+    font-family: 'Feijoa', serif;
+}
+
+.bio-img {
+    width: 30%;
+}
+
+.fix {
+    clear: both;
+    overflow: hidden;
+}
+
+.pageTitle {
+    color: white;
+    font-size: 6vh;
+    font-family: 'Temeraire', serif;
+    font-weight: lighter;
+    left: 15%;
+    top: 10vh;
+}
