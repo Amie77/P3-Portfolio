@@ -15,7 +15,7 @@ p {
 
 .bio-img {
     float: right;
-    width: 60%;
+    width: 100%;
 }
 
 .fix {
@@ -26,7 +26,7 @@ p {
 .bio-para {
     margin-top: 1%;
     padding-left: 10%;
-    width: 30%;
+    width: 100%;
 }
 
 .intro-bio {
