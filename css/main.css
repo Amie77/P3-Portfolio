@@ -148,6 +148,35 @@ code {
 }
 
 
+/* Contact Buttons */
+
+.contact-buttons button {
+    border: none;
+    outline: 0;
+    padding: 0.6rem;
+    margin-bottom: 10%;
+    color: white;
+    background-color: #005370;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.contact-buttons button:hover {
+    opacity: 0.7;
+}
+
+.contact-buttons button:focus {
+    opacity: 0.7;
+    background-color: #599388;
+}
+
+.contact-buttons button[type=submit] {
+    margin-right: 2vw;
+}
+
+
 /* 
     TEXT ELEMENTS -------------------
   */
