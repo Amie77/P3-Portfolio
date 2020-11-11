@@ -1,0 +1,37 @@
+.fixed {
+    position: fixed;
+}
+
+.proj {
+    font-family: 'Temeraire', serif;
+    font-weight: bold;
+    font-size: 4vw;
+    color: black;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.proj:hover {
+    color: white;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+#pp-proj {
+    top: 30%;
+    left: 10%;
+}
+
+#pp {
+    top: 36%;
+    left: 15%;
+}
+
+#pgs-proj {
+    top: 50%;
+    left: 10%;
+}
+
+#pgs {
+    top: 56%;
+    left: 15%;
+}
