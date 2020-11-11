@@ -186,16 +186,24 @@
                 <div>
                     <h4>Sample code:</h4>
                     <code class="code-color">
-                        &lt;a href="#"&gt;<br>
-                        &nbsp;&lt;img class="album-pic" src="source/Untitled-2.jpg" alt="Album One"&gt;<br>
-                        &lt;/a&gt;
+                        &lt;div class="thumbnail"&gt;<br>
+                        &nbsp;&lt;a href="#"&gt;<br>
+                        &nbsp;&nbsp;&lt;div class="zoom-image"&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&lt;img class="album-pic" src="source/Untitled-2.jpg" alt="Album One"&gt;<br>
+                        &nbsp;&nbsp;&lt;/div&gt;<br>
+                        &nbsp;&lt;/a&gt;<br>
+                        &lt;/div&gt;
                   </code>
                 </div>
                 <div>
                     <h4>Rendered element:</h4>
-                    <a href="#">
-                        <img id="imgLink" class="album-pic" src="img/Untitled-2.jpg" alt="Placeholder">
-                    </a>
+                    <div class="thumbnail">
+                        <a href="#">
+                            <div class="zoom-image">
+                                <img id="imgLink" src="img/unnamed.jpg" alt="Placeholder">
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </section>
 
