@@ -23,15 +23,6 @@ p {
     overflow: hidden;
 }
 
-.pageTitle {
-    color: white;
-    font-size: 6vh;
-    font-family: 'Temeraire', serif;
-    font-weight: lighter;
-    left: 15%;
-    top: 10vh;
-}
-
 .bio-para {
     margin-top: 1%;
     padding-left: 10%;
