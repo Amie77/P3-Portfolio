@@ -51,11 +51,25 @@ body {
     background-color: black;
 }
 
+.element-category {
+    margin-top: 4vw;
+}
+
 .element {
+    padding-top: 4rem;
     padding-bottom: 2rem;
     border-top-width: 0.15rem;
     border-top-style: solid;
-    border-top-color: black;
+    border-top-color: white;
+}
+
+.element h3 {
+    color: #f09d1f;
+}
+
+.element h4 {
+    font-size: 1.4rem;
+    padding-top: 1%;
 }
 
 .subnav a {
@@ -77,6 +91,8 @@ code {
     background-color: #EEE;
     padding: 0.5rem;
     display: block;
+    margin-bottom: 2%;
+    ;
 }
 
 .code-color {
@@ -268,11 +284,14 @@ h2 {
 }
 
 h3 {
+    color: #f09d1f;
     font-style: italic;
     margin-top: 1rem;
 }
 
 h4 {
+    font-size: 1.4rem;
+    padding-top: 1%;
     margin-bottom: 0.25rem;
 }
 
