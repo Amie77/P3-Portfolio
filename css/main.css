@@ -36,8 +36,8 @@ p {
     margin-top: 0;
 }
 
-nav a:hover,
-nav a:focus {
+.subnav a:hover,
+.subnav a:focus {
     text-decoration: none;
 }
 
@@ -45,6 +45,18 @@ code {
     background-color: #EEE;
     padding: 0.5rem;
     display: block;
+}
+
+.red-cursor {
+    background-color: rgb(190, 52, 52);
+    /* border: 1px solid rgb(129, 28, 28); */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: anim .5s infinite alternate;
 }
 
 
