@@ -117,8 +117,8 @@ code {
     color: white;
 }
 
-.intext:hover .intext:focus {
-    color: red;
+.intext:hover {
+    color: rgb(190, 52, 52);
 }
 
 
