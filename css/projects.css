@@ -5,7 +5,7 @@
 .proj {
     font-family: 'Temeraire', serif;
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 4rem;
     color: black;
     text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }

@@ -14,9 +14,7 @@
 
 </head>
 
-<body class="black">
-
-
+<body class="black-background">
 
     <header>
         <nav class="topnav">
@@ -30,14 +28,12 @@
         </nav>
     </header>
 
+    <h1 class="pageTitle">My Works</h1>
+
     <div class="container">
-
-        <div class="mx-auto row">
-            <h1 class="fixed pageTitle">My Works</h1>
-
-
+        <section>
             <div class="row">
-                <div class="col-12">
+                <div>
                     <span class="fixed proj" id="pp-proj">01</span>
                     <a href="process-analysis.html" class="fixed proj" id="pp">Precedent Presentation</a>
                 </div>
@@ -49,16 +45,17 @@
                     <a href="process-analysis2.html" class="fixed proj" id="pgs">Participant Group Slide</a>
                 </div>
             </div>
+        </section>
 
 
-            <div class="red cursor"></div>
+        <div class="red cursor"></div>
 
-        </div>
-        <script>
-            const cursor = document.querySelector('.cursor');
+    </div>
+    <script>
+        const cursor = document.querySelector('.cursor');
 
-            document.addEventListener('mousemove', e => {
-                cursor.setAttribute("style", "top: " + (e.pageY) + "px; left: " + (e.pageX - 20) + "px;")
-            })
-        </script>
+        document.addEventListener('mousemove', e => {
+            cursor.setAttribute("style", "top: " + (e.pageY) + "px; left: " + (e.pageX - 20) + "px;")
+        })
+    </script>
 </body>
