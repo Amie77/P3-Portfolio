@@ -3,6 +3,27 @@
   Default styling for the style guide 
 */
 
+@import url(//db.onlinewebfonts.com/c/364bcd77f75508783b2255c15608d3ae?family=Feijoa+Medium);
+@import url(//db.onlinewebfonts.com/c/09c4db82c87d589fe57bd5e29a4debe2?family=Feijoa+Medium+Italic);
+@import url(//db.onlinewebfonts.com/c/1079aba7293cee85a36e6280bb7f3162?family=Feijoa+Bold);
+@font-face {
+    font-family: "Feijoa Medium";
+    src: url("//db.onlinewebfonts.com/t/364bcd77f75508783b2255c15608d3ae.eot");
+    src: url("//db.onlinewebfonts.com/t/364bcd77f75508783b2255c15608d3ae.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/364bcd77f75508783b2255c15608d3ae.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/364bcd77f75508783b2255c15608d3ae.woff") format("woff"), url("//db.onlinewebfonts.com/t/364bcd77f75508783b2255c15608d3ae.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/364bcd77f75508783b2255c15608d3ae.svg#Feijoa Medium") format("svg");
+}
+
+@font-face {
+    font-family: "Feijoa Medium Italic";
+    src: url("//db.onlinewebfonts.com/t/09c4db82c87d589fe57bd5e29a4debe2.eot");
+    src: url("//db.onlinewebfonts.com/t/09c4db82c87d589fe57bd5e29a4debe2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/09c4db82c87d589fe57bd5e29a4debe2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/09c4db82c87d589fe57bd5e29a4debe2.woff") format("woff"), url("//db.onlinewebfonts.com/t/09c4db82c87d589fe57bd5e29a4debe2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/09c4db82c87d589fe57bd5e29a4debe2.svg#Feijoa Medium Italic") format("svg");
+}
+
+@font-face {
+    font-family: "Feijoa Bold";
+    src: url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.eot");
+    src: url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.woff") format("woff"), url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.svg#Feijoa Bold") format("svg");
+}
+
 body {
     background-color: rgb(0, 0, 0);
     font-family: sans-serif;
