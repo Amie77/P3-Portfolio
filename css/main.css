@@ -9,6 +9,7 @@
 @import url(//db.onlinewebfonts.com/c/364bcd77f75508783b2255c15608d3ae?family=Feijoa+Medium);
 @import url(//db.onlinewebfonts.com/c/09c4db82c87d589fe57bd5e29a4debe2?family=Feijoa+Medium+Italic);
 @import url(//db.onlinewebfonts.com/c/1079aba7293cee85a36e6280bb7f3162?family=Feijoa+Bold);
+@import url("https://use.typekit.net/xei2jwr.css");
 @font-face {
     font-family: "Feijoa Medium";
     src: url("//db.onlinewebfonts.com/t/364bcd77f75508783b2255c15608d3ae.eot");
@@ -39,6 +40,9 @@ body {
 }
 
 * {
+    font-family: temeraire, serif;
+    font-weight: 400;
+    font-style: normal;
     color: white;
 }
 
