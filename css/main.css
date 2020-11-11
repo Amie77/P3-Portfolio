@@ -205,6 +205,43 @@ input[type=email]:focus {
 }
 
 
+/* Radio Button Custom Code Reference: 
+https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-buttons */
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:hover {
+    opacity: 0.5;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #599388;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    opacity: 1;
+}
+
+
 /* 
     TEXT ELEMENTS -------------------
   */
