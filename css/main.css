@@ -4,8 +4,20 @@
 */
 
 body {
+    background-color: rgb(0, 0, 0);
     font-family: sans-serif;
     padding: 2rem;
+    margin: 0;
+    height: 100vh;
+    cursor: none;
+}
+
+* {
+    color: white;
+}
+
+.black-background {
+    background-color: black;
 }
 
 .element {
@@ -17,6 +29,7 @@ body {
 
 h1 {
     font-size: 2rem;
+    color: white;
 }
 
 h2 {
@@ -47,11 +60,14 @@ code {
     display: block;
 }
 
-.red-cursor {
+.red {
     background-color: rgb(190, 52, 52);
     /* border: 1px solid rgb(129, 28, 28); */
-    width: 30px;
-    height: 30px;
+}
+
+.cursor {
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     position: absolute;
     transition-duration: 200ms;
