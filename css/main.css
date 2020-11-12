@@ -264,7 +264,7 @@ input[type='radio']:checked:after {
 /* https://stackoverflow.com/questions/15757036/creating-a-zoom-effect-on-an-image-on-hover-using-css */
 
 .thumbnail {
-    width: 30%;
+    width: 50%;
 }
 
 .zoom-image {
