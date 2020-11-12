@@ -179,6 +179,7 @@ code {
     text-align: center;
     cursor: pointer;
     font-size: 0.9rem;
+    cursor: none;
 }
 
 .contact-buttons button:hover {
