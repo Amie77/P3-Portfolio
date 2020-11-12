@@ -1,8 +1,5 @@
-.fixed {
-    position: fixed;
-}
-
 .proj {
+    position: relative;
     font-family: 'Temeraire', serif;
     font-weight: bold;
     font-size: 4rem;
@@ -16,22 +13,6 @@
     text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 
-#pp-proj {
-    top: 30%;
-    left: 10%;
-}
-
-#pp {
-    top: 36%;
-    left: 15%;
-}
-
-#pgs-proj {
-    top: 50%;
-    left: 10%;
-}
-
-#pgs {
-    top: 56%;
-    left: 15%;
+.listing {
+    margin-top: 10%;
 }
