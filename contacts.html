@@ -17,7 +17,6 @@
 </head>
 
 <body class="black-background">
-
     <header class="fix">
         <!-- <video src="img/wave_1.mp4" class="vid-bg" autoplay loop muted></video> -->
 
@@ -35,24 +34,38 @@
     <div class="container">
 
         <div class="row">
-            <h1 class="pageTitle">About Me</h1>
-        </div>
-        <div class="row">
-            <div class="col-6">
-
-                <p class="intro-bio bio-para">My name is Amy Guo, and I’m currently a third-year undergraduate student studying interactive arts & technology at SFU. I enjoy anything that allows me to think creatively with my imaginations, such as sketching, painting and fashion.
-                    I am also an enthusiastic magazine collector, especially those of design and arts. </p>
-                <p class="bio-para">As a graphic designer, I value style the most as it can establish a unique aura and mood for a design. I always try to capture the emotion and impression I want my audiences to perceive when I design a project. From two years of study,
-                    I have acquired a solid knowledge of graphic design, HTML, CSS and Adobe Creative Suite.</p>
-            </div>
-
-            <div class="col-6">
-                <img class="bio-img" src="img/unnamed.jpg" alt=" Untitled " id="bioImg ">
-            </div>
+            <h1 class="pageTitle">Contact</h1>
         </div>
 
 
-        <div class="red cursor"></div>
+        <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form -->
+        <div class="container">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="phone">Phone #</label>
+                <input type="text" id="phone" name="phonenumber" placeholder="Phone number">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="lastname" placeholder="Email">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." class="subject-area"></textarea>
+
+                <div class=" contact-buttons ">
+                    <button type=" submit " value=" Submit ">Submit</button>
+                    <button type=" reset " value=" Reset ">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="red cursor"></div>
     </div>
 
     <script>

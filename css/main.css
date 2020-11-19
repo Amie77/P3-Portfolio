@@ -201,10 +201,12 @@ https://www.w3schools.com/cssref/sel_focus.asp */
 
 input[type=text]:hover {
     background-color: #005370;
+    color: black;
 }
 
 input[type=email]:hover {
     background-color: #005370;
+    color: black;
 }
 
 input[type=text]:focus {
@@ -212,6 +214,7 @@ input[type=text]:focus {
     border: 1px solid #519AF6;
     box-shadow: 0 0 10px #519AF6;
     cursor: none;
+    color: black;
 }
 
 input[type=email]:focus {
@@ -219,6 +222,32 @@ input[type=email]:focus {
     border: 1px solid #519AF6;
     box-shadow: 0 0 10px #519AF6;
     cursor: none;
+    color: black;
+}
+
+input[type=email],
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: black;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #000000;
+    padding: 20px;
+}
+
+.subject-area {
+    height: 200px;
 }
 
 
