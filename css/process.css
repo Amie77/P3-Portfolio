@@ -1,3 +1,11 @@
+.box {
+    padding: 0 40%;
+}
+
+.part {
+    margin-top: 20%;
+}
+
 .subtitle {
     color: #f09d1f;
     font-style: italic;
@@ -9,7 +17,7 @@
 }
 
 .proj-img {
-    width: 50%;
+    width: 100%;
     margin-bottom: 3%;
 }
 
