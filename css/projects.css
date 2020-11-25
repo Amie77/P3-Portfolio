@@ -1,68 +1,74 @@
-.proj {
-    position: relative;
-    font-family: 'Temeraire', serif;
-    font-weight: bold;
-    font-size: 4rem;
-    color: black;
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-}
-
-.proj:hover {
-    color: white;
-    text-decoration: none;
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-}
-
-.proj div {
-    display: none;
-}
-
-.proj:hover div {
-    display: block;
-}
-
-.listing {
-    margin-top: 10%;
-}
-
-.image-right {
-    float: right;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0%;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-.zoom-image:hover .overlay {
-    opacity: 1;
-}
-
-.text {
-    color: white;
-    font-family: temeraire, serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 2rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-@media only screen and (max-width: 992px) {
-    .text {
-        font-size: 1rem;
+    .proj {
+        position: relative;
+        font-family: 'Temeraire', serif;
+        font-weight: bold;
+        font-size: 4rem;
+        color: black;
+        text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
     }
-}
+    
+    .proj:hover {
+        color: white;
+        text-decoration: none;
+        text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    }
+    
+    .proj div {
+        display: none;
+    }
+    
+    .proj:hover div {
+        display: block;
+    }
+    
+    .listing {
+        margin-top: 10%;
+    }
+    
+    .image-right {
+        float: right;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0%;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    
+    .zoom-image:hover .overlay {
+        opacity: 1;
+    }
+    
+    .text {
+        color: white;
+        font-family: temeraire, serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    @media only screen and (max-width: 992px) {
+        .text {
+            font-size: 1.5rem;
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .thumbnail div {
+            margin-bottom: 10%;
+        }
+    }
