@@ -170,6 +170,7 @@ code {
 /* Contact Buttons */
 
 .contact-buttons button {
+    width: 40%;
     border: none;
     outline: 0;
     padding: 0.6rem;
@@ -181,6 +182,19 @@ code {
     cursor: pointer;
     font-size: 0.9rem;
     cursor: none;
+}
+
+.contact-buttons button {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+@media only screen and (max-width: 992px) {
+    .contact-buttons button {
+        width: 30%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
 }
 
 .contact-buttons button:hover {
