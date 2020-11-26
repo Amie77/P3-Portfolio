@@ -37,9 +37,7 @@
             .bio-para {
                 padding-left: 0%;
             }
-        }
-        
-        footer {
-            position: absolute;
-            bottom: 10%;
+            footer {
+                position: relative;
+            }
         }
