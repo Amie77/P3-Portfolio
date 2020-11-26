@@ -185,14 +185,14 @@ code {
 }
 
 .contact-buttons button {
-    margin-top: 5%;
+    margin-top: 0%;
     margin-left: 5%;
 }
 
 @media only screen and (max-width: 992px) {
     .contact-buttons button {
         width: 30%;
-        margin-top: 5%;
+        margin-top: 0%;
         margin-left: 10%;
     }
 }
