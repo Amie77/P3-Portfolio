@@ -132,7 +132,8 @@ code {
 /* Start of In-text Link*/
 
 .intext {
-    color: white;
+    color: #599388;
+    text-transform: uppercase;
 }
 
 .intext:hover {
