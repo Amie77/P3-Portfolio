@@ -1,34 +1,40 @@
-body {
-    margin: 0;
-    height: 100vh;
-    cursor: none;
-}
-
-a {
-    padding: .7vh;
-    cursor: none;
-}
-
-p {
-    font-family: 'Feijoa', serif;
-}
-
-.bio-img {
-    float: right;
-    width: 100%;
-}
-
-.fix {
-    clear: both;
-    overflow: hidden;
-}
-
-.bio-para {
-    margin-top: 1%;
-    padding-left: 10%;
-    width: 100%;
-}
-
-.intro-bio {
-    margin-top: 10%;
-}
+        body {
+            margin: 0;
+            height: 100vh;
+            cursor: none;
+        }
+        
+        a {
+            padding: .7vh;
+            cursor: none;
+        }
+        
+        p {
+            font-family: 'Feijoa', serif;
+        }
+        
+        .bio-img {
+            float: right;
+            width: 100%;
+        }
+        
+        .fix {
+            clear: both;
+            overflow: hidden;
+        }
+        
+        .bio-para {
+            margin-top: 1%;
+            padding-left: 10%;
+            width: 100%;
+        }
+        
+        .intro-bio {
+            margin-top: 10%;
+        }
+        
+        @media only screen and (max-width: 992px) {
+            .bio-para {
+                padding-left: 0%;
+            }
+        }
