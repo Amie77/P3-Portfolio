@@ -31,6 +31,7 @@
     position: relative;
     margin: auto;
     width: 70%;
+    cursor: none;
 }
 
 
@@ -65,6 +66,13 @@
     width: 100%;
     margin-bottom: 3%;
     opacity: 1;
+}
+
+@media only screen and (max-width: 992px) {
+    .prev,
+    .next {
+        opacity: 1;
+    }
 }
 
 
