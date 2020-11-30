@@ -84,4 +84,22 @@
             position: relative;
             bottom: 0;
         }
+        .overlay {
+            opacity: 1;
+        }
+        .text:hover {
+            color: #f09d1f;
+        }
+        .zoom-image:hover img {
+            width: 100%;
+            -webkit-transform: scale(1);
+            /* Safari and Chrome */
+            -moz-transform: scale(1);
+            /* Firefox */
+            -ms-transform: scale(1);
+            /* IE 9 */
+            -o-transform: scale(1);
+            /* Opera */
+            transform: scale(1);
+        }
     }
