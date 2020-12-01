@@ -426,3 +426,18 @@ https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-b
         font-size: medium;
     }
     /* End of Footer */
+    /* Citations */
+    /* https://stackoverflow.com/questions/5241369/word-wrap-a-link-so-it-doesnt-overflow-its-parent-div-width */
+    
+    ul li {
+        white-space: pre-wrap;
+        /* CSS3 */
+        white-space: -moz-pre-wrap;
+        /* Mozilla, since 1999 */
+        white-space: -pre-wrap;
+        /* Opera 4-6 */
+        white-space: -o-pre-wrap;
+        /* Opera 7 */
+        word-wrap: break-word;
+        /* Internet Explorer 5.5+ */
+    }
