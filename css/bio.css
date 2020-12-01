@@ -1,12 +1,10 @@
         body {
             margin: 0;
             height: 100vh;
-            cursor: none;
         }
         
         a {
             padding: .7vh;
-            cursor: none;
         }
         
         p {
