@@ -1,0 +1,597 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+
+
+/* Fonts Import */
+
+@import "//db.onlinewebfonts.com/c/364bcd77f75508783b2255c15608d3ae?family=Feijoa+Medium";
+@import "//db.onlinewebfonts.com/c/09c4db82c87d589fe57bd5e29a4debe2?family=Feijoa+Medium+Italic";
+@import "//db.onlinewebfonts.com/c/1079aba7293cee85a36e6280bb7f3162?family=Feijoa+Bold";
+@import "https://use.typekit.net/xei2jwr.css";
+@font-face {
+    font-family: "Feijoa Medium";
+    src: url("//db.onlinewebfonts.com/t/364bcd77f75508783b2255c15608d3ae.eot");
+    src: url("//db.onlinewebfonts.com/t/364bcd77f75508783b2255c15608d3ae.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/364bcd77f75508783b2255c15608d3ae.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/364bcd77f75508783b2255c15608d3ae.woff") format("woff"), url("//db.onlinewebfonts.com/t/364bcd77f75508783b2255c15608d3ae.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/364bcd77f75508783b2255c15608d3ae.svg#Feijoa Medium") format("svg");
+}
+
+@font-face {
+    font-family: "Feijoa Medium Italic";
+    src: url("//db.onlinewebfonts.com/t/09c4db82c87d589fe57bd5e29a4debe2.eot");
+    src: url("//db.onlinewebfonts.com/t/09c4db82c87d589fe57bd5e29a4debe2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/09c4db82c87d589fe57bd5e29a4debe2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/09c4db82c87d589fe57bd5e29a4debe2.woff") format("woff"), url("//db.onlinewebfonts.com/t/09c4db82c87d589fe57bd5e29a4debe2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/09c4db82c87d589fe57bd5e29a4debe2.svg#Feijoa Medium Italic") format("svg");
+}
+
+@font-face {
+    font-family: "Feijoa Bold";
+    src: url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.eot");
+    src: url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.woff") format("woff"), url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1079aba7293cee85a36e6280bb7f3162.svg#Feijoa Bold") format("svg");
+}
+
+
+/* End of Fonts */
+
+
+/* Start of <code> styling*/
+
+
+/* End of <code> styling*/
+
+
+/* Start of cursor */
+
+
+/* End of cursor */
+
+
+/* 
+    INTERACTIVE ELEMENTS -------------------
+  */
+
+
+/* Start of In-text Link*/
+
+
+/* End of In-text Link */
+
+
+/* Styling for the navigation button */
+
+
+/* Contact Buttons */
+
+
+/* Coder Reference for the four input styles below: 
+https://www.w3schools.com/cssref/sel_focus.asp */
+
+
+/* Radio Button Custom Code Reference: 
+https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-buttons */
+
+
+/* Image as a link style */
+
+
+/* https://stackoverflow.com/questions/15757036/creating-a-zoom-effect-on-an-image-on-hover-using-css */
+
+
+/* End of image as a link */
+
+
+/* 
+    TEXT ELEMENTS -------------------
+  */
+
+
+/* Styling for headings */
+
+
+/* END FOR STYLING OF HEADINGS */
+
+
+/* STYLING FOR PARAGRAPHS */
+
+
+/* END OF STYLING FOR PARAGRAPHS */
+
+
+/* 
+    COMBINED ELEMENTS -------------------
+  */
+
+
+/* Start of Main navigation */
+
+
+/* End of Main navigation */
+
+
+/* Project Listing */
+
+
+/* End of Project Listing */
+
+
+/* Footer */
+
+
+/* End of Footer */
+
+
+/* Citations */
+
+
+/* https://stackoverflow.com/questions/5241369/word-wrap-a-link-so-it-doesnt-overflow-its-parent-div-width */
+
+$yellow: #f09d1f;
+$green: #599388;
+body {
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+    margin: 0;
+    height: 100vh;
+}
+
+* {
+    font-family: temeraire, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.black-background {
+    background-color: black;
+}
+
+.element-category {
+    margin-top: 4vw;
+}
+
+.element {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    border-top-width: 0.15rem;
+    border-top-style: solid;
+    border-top-color: white;
+    h3 {
+        color: $yellow;
+    }
+    h4 {
+        font-size: 1.4rem;
+        padding-top: 1%;
+    }
+}
+
+.subnav {
+    a {
+        font-family: 'Feijoa Medium';
+        cursor: none;
+        padding-right: 3vh;
+        color: pink;
+        &:hover {
+            text-decoration: none;
+        }
+        &:focus {
+            text-decoration: none;
+        }
+    }
+}
+
+code {
+    background-color: #EEE;
+    padding: 0.5rem;
+    display: block;
+    margin-bottom: 2%;
+}
+
+.code-color {
+    color: $green;
+}
+
+.red {
+    background-color: rgb(190, 52, 52);
+}
+
+.cursor {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: anim .5s infinite alternate;
+}
+
+.intext {
+    color: #599388;
+    text-transform: uppercase;
+    &:hover {
+        color: rgb(190, 52, 52);
+    }
+}
+
+.button-nav {
+    display: inline-block;
+    padding: 0.5rem;
+    color: white;
+    background-color: rgb(50, 50, 50);
+    text-decoration: none;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    &:hover {
+        background-color: rgb(200, 200, 200);
+    }
+    &:focus {
+        background-color: rgb(200, 200, 200);
+    }
+}
+
+.fix {
+    clear: both;
+    overflow: hidden;
+}
+
+.contact-buttons {
+    button {
+        width: 40%;
+        border: none;
+        outline: 0;
+        padding: 0.6rem;
+        margin-bottom: 10%;
+        color: white;
+        background-color: #005370;
+        border-radius: 6px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 0.9rem;
+        cursor: none;
+        margin-top: 0%;
+        margin-left: 5%;
+        &:hover {
+            opacity: 0.7;
+        }
+        &:focus {
+            opacity: 0.7;
+            background-color: #599388;
+        }
+    }
+    button[type=submit] {
+        margin-right: 2vw;
+    }
+}
+
+input[type=text] {
+    &:hover {
+        background-color: #005370;
+        color: black;
+    }
+    &:focus {
+        outline: none !important;
+        border: 1px solid #519AF6;
+        box-shadow: 0 0 10px #519AF6;
+        cursor: none;
+        color: black;
+    }
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: black;
+}
+
+input[type=email] {
+    &:hover {
+        background-color: #005370;
+        color: black;
+    }
+    &:focus {
+        outline: none !important;
+        border: 1px solid #519AF6;
+        box-shadow: 0 0 10px #519AF6;
+        cursor: none;
+        color: black;
+    }
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: black;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: black;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: black;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #000000;
+    padding: 20px;
+}
+
+.subject-area {
+    height: 200px;
+}
+
+input[type='radio'] {
+    &:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+    &:hover {
+        opacity: 0.5;
+    }
+    &:checked {
+        &:after {
+            width: 15px;
+            height: 15px;
+            border-radius: 15px;
+            top: -2px;
+            left: -1px;
+            position: relative;
+            background-color: #599388;
+            content: '';
+            display: inline-block;
+            visibility: visible;
+            border: 2px solid white;
+            opacity: 1;
+        }
+    }
+}
+
+.thumbnail {
+    width: 50%;
+}
+
+.zoom-image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    img {
+        width: 100%;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+    &:hover {
+        img {
+            width: 100%;
+            -webkit-transform: scale(1.25);
+            -moz-transform: scale(1.25);
+            -ms-transform: scale(1.25);
+            -o-transform: scale(1.25);
+            transform: scale(1.25);
+        }
+        .overlay {
+            opacity: 1;
+        }
+    }
+}
+
+h1 {
+    font-family: 'temeraire', serif;
+    font-weight: 400;
+    font-size: large;
+    font-size: 2rem;
+    color: white;
+}
+
+h2 {
+    font-family: 'temeraire', serif;
+    font-weight: 400;
+    font-size: large;
+    margin-top: 6rem;
+}
+
+h3 {
+    font-family: 'temeraire', serif;
+    font-weight: 400;
+    font-size: large;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+h4 {
+    font-family: 'temeraire', serif;
+    font-weight: 400;
+    font-size: large;
+    font-size: 1.4rem;
+    padding-top: 1%;
+    margin-bottom: 0.25rem;
+}
+
+.pageTitle {
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Temeraire', serif;
+    font-weight: lighter;
+    left: 15%;
+    top: 10vh;
+}
+
+.subtitle {
+    color: #f09d1f;
+    font-style: italic;
+    margin-top: 3rem;
+}
+
+p {
+    margin-top: 0;
+    font-family: 'Feijoa Medium';
+}
+
+.topnav {
+    overflow: hidden;
+    a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        top: 5%;
+        font-family: 'Feijoa', serif;
+        &:hover {
+            background-color: #ddd;
+            color: black;
+            text-decoration: none;
+        }
+    }
+    a.active {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.topnav-right {
+    float: right;
+}
+
+.listing {
+    margin-top: 10%;
+}
+
+.image-right {
+    float: right;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0%;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.text {
+    color: white;
+    font-family: temeraire, serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+footer {
+    font-family: 'Feijoa Medium';
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 1rem;
+    font-size: medium;
+    h4 {
+        font-family: 'Feijoa Medium';
+        position: relative;
+        font-size: medium;
+    }
+}
+
+ul {
+    li {
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        word-wrap: break-word;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    * {
+        cursor: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cursor {
+        opacity: 0;
+    }
+    .thumbnail {
+        div {
+            margin-bottom: 10%;
+        }
+    }
+    .overlay {
+        opacity: 1;
+    }
+    .text {
+        &:hover {
+            color: #f09d1f;
+        }
+    }
+    .zoom-image {
+        &:hover {
+            img {
+                width: 100%;
+                -webkit-transform: scale(1);
+                -moz-transform: scale(1);
+                -ms-transform: scale(1);
+                -o-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .contact-buttons {
+        button {
+            width: 30%;
+            margin-top: 0%;
+            margin-left: 10%;
+        }
+    }
+    .text {
+        font-size: 1.5rem;
+    }
+}
