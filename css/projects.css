@@ -31,6 +31,10 @@
         font-size: medium;
     }
     
+    .newLine {
+        margin-top: 3%;
+    }
+    
     @media only screen and (max-width: 768px) {
         footer {
             position: relative;
