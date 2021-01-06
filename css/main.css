@@ -500,6 +500,9 @@ https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-b
                 /* Opera */
                 transform: scale(1);
             }
+            .sub-text {
+                top: 70%;
+            }
         }
         /* End of Project Listing */
         /* Footer */
