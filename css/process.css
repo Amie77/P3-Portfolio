@@ -180,14 +180,13 @@
 .slideCover {
     background-color: white;
     margin-left: -30%;
-    width: 100vw;
+    width: 80vw;
 }
 
 .centerImage {
-    width: 70%;
+    width: 80%;
     display: block;
     margin-left: auto;
-    margin-right: auto;
 }
 
 footer {
