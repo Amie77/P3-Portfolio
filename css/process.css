@@ -17,6 +17,17 @@
     margin-bottom: 3%;
 }
 
+.icon {
+    height: 30vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.white-div {
+    background-color: white;
+}
+
 .subtitle {
     color: #f09d1f;
     font-style: italic;
@@ -180,13 +191,37 @@
 .slideCover {
     background-color: white;
     margin-left: -30%;
-    width: 80vw;
+    width: 82vw;
 }
 
 .centerImage {
     width: 80%;
     display: block;
     margin-left: auto;
+}
+
+.slideRight {
+    background-color: white;
+    position: absolute;
+    right: 0;
+    padding-right: 34%;
+}
+
+.centerImageRight {
+    display: block;
+    margin-left: 45%;
+}
+
+@media only screen and (max-width: 768px) {
+    .slideCover {
+        background-color: white;
+        margin-left: 0;
+    }
+    .centerImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 footer {
