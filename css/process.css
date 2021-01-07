@@ -1,5 +1,5 @@
 .part {
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .subtitle {
@@ -175,6 +175,19 @@
 
 .proj-text {
     margin: 8% 0;
+}
+
+.slideCover {
+    background-color: white;
+    margin-left: -30%;
+    width: 100vw;
+}
+
+.centerImage {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
