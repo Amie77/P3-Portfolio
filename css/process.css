@@ -202,14 +202,17 @@
 
 .slideRight {
     background-color: white;
-    position: absolute;
-    right: 0;
-    padding-right: 34%;
+    margin-right: -15%;
+    width: 80vw;
 }
 
 .centerImageRight {
+    width: 100%;
     display: block;
-    margin-left: 45%;
+    margin-right: auto;
+    /* display: block;
+    width: 100%;
+    margin-left: 45%; */
 }
 
 @media only screen and (max-width: 1200px) {
@@ -222,6 +225,9 @@
 @media only screen and (max-width: 768px) {
     .slideCover {
         margin-left: 0;
+    }
+    .slideRight {
+        margin-right: 0;
     }
 }
 
