@@ -261,17 +261,22 @@
     /* Text color */
     cursor: pointer;
     /* Add a mouse pointer on hover */
-    padding: 15px;
+    padding: 10px;
     /* Some padding */
     border-radius: 10px;
     /* Rounded corners */
     font-size: 18px;
     /* Increase font size */
+    width: 50px;
 }
 
 #myBtn:hover {
     background-color: #599388;
     /* Add a dark-grey background on hover */
+}
+
+.topIcon {
+    width: 100%;
 }
 
 footer {

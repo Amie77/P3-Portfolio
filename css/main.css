@@ -278,6 +278,7 @@ https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-b
             top: -2px;
             left: -1px;
             position: relative;
+            background: url('img/top.png') no-repeat;
             background-color: #599388;
             content: '';
             display: inline-block;
