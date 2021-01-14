@@ -279,6 +279,10 @@
     width: 100%;
 }
 
+#fig4 {
+    margin-top: auto;
+}
+
 footer {
     position: relative;
     margin-top: 5%;
